@@ -4,7 +4,9 @@ public class Player {
     private String name;
     private String uniqueID;
     private String position;
+    Player next = null;
     private Hand hand;
+    private boolean isTurn;
 
     public Player() {
     }
